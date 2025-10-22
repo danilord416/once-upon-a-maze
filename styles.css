@@ -420,6 +420,15 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
+/* Ensure button text is always visible */
+.btn-white, .btn-white:visited, .btn-white:active {
+    color: #2c3e50 !important;
+}
+
+.btn-white:hover {
+    color: #2c3e50 !important;
+}
+
 .btn-large {
     padding: 20px 40px;
     font-size: 1.2rem;
