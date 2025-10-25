@@ -1,0 +1,166 @@
+{
+  "key": "group_5f8b2c3d4e5f6",
+  "title": "Homepage Content",
+  "fields": [
+    {
+      "key": "field_5f8b2c3d4e5f7",
+      "label": "Hero Image",
+      "name": "hero_image",
+      "type": "image",
+      "instructions": "Upload the main hero image for the homepage",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "url",
+      "preview_size": "medium",
+      "library": "all",
+      "min_width": "",
+      "min_height": "",
+      "min_size": "",
+      "max_width": "",
+      "max_height": "",
+      "max_size": "",
+      "mime_types": ""
+    },
+    {
+      "key": "field_5f8b2c3d4e5f8",
+      "label": "Main Title",
+      "name": "main_title",
+      "type": "text",
+      "instructions": "The main headline on the homepage",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Every Twist Tells a Tale",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5f8b2c3d4e5f9",
+      "label": "Main Subtitle",
+      "name": "main_subtitle",
+      "type": "textarea",
+      "instructions": "The subtitle text below the main title",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Step into a living storybook, where magic winds through enchanted pathways & whimsical rooms as familiar tales come to life.",
+      "placeholder": "",
+      "maxlength": "",
+      "rows": 3,
+      "new_lines": ""
+    },
+    {
+      "key": "field_5f8b2c3d4e5fa",
+      "label": "Main Description",
+      "name": "main_description",
+      "type": "textarea",
+      "instructions": "The description text in the highlighted box",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Next door to FairyTale Village, this all-new walk-through experience invites you to wander, wonder, and rediscover your favorite childhood stories — one twist at a time.",
+      "placeholder": "",
+      "maxlength": "",
+      "rows": 3,
+      "new_lines": ""
+    },
+    {
+      "key": "field_5f8b2c3d4e5fb",
+      "label": "CTA Button Text",
+      "name": "cta_button_text",
+      "type": "text",
+      "instructions": "Text for the main call-to-action button",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Reserve Your Adventure",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5f8b2c3d4e5fc",
+      "label": "CTA Button URL",
+      "name": "cta_button_url",
+      "type": "url",
+      "instructions": "URL for the main call-to-action button",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": ""
+    },
+    {
+      "key": "field_5f8b2c3d4e5fd",
+      "label": "Ticket Info",
+      "name": "ticket_info",
+      "type": "text",
+      "instructions": "Information about ticket availability",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "or visit us in person — tickets available online or at the door every 15 minutes!",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "default"
+      }
+    ],
+    [
+      {
+        "param": "page_type",
+        "operator": "==",
+        "value": "front_page"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "Content fields for the homepage"
+}
+
