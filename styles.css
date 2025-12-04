@@ -1615,13 +1615,16 @@ html {
 .faq-answer {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease, padding 0.4s ease;
+    transition: max-height 0.4s ease, padding 0.4s ease, opacity 0.3s ease;
     background: #fff;
+    padding: 0 2rem;
+    opacity: 0;
 }
 
 .faq-item.active .faq-answer {
-    max-height: 500px;
+    max-height: 1000px;
     padding: 1.5rem 2rem;
+    opacity: 1;
 }
 
 .faq-answer p {
