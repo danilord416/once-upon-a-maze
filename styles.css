@@ -1634,6 +1634,18 @@ html {
     font-size: 1rem;
 }
 
+.faq-answer a {
+    color: #FF69B4;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.faq-answer a:hover {
+    color: #FFD700;
+    text-decoration: underline;
+}
+
 /* Mobile Responsive for FAQ */
 @media (max-width: 768px) {
     .faq-section {
