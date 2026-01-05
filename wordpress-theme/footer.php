@@ -43,7 +43,7 @@
                 <?php else : ?>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/Once-Upon-a Maze-Logo-2.png" alt="Once Upon a Maze Logo" class="footer-logo-small">
                 <?php endif; ?>
-                <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved.</p>
+                <p>&copy; 2026 Once Upon a Maze. All rights reserved.</p>
             </div>
         </div>
     </div>
