@@ -28,7 +28,7 @@
                             <a href="<?php echo esc_url(get_theme_option('tiktok_url')); ?>" class="social-link" target="_blank"><i class="fab fa-tiktok"></i></a>
                         <?php endif; ?>
                     </div>
-                    <a href="<?php echo get_field('newsletter_signup_url') ?: '#'; ?>" class="btn btn-white btn-small">
+                    <a href="<?php echo esc_url(get_field('newsletter_signup_url') ?: 'https://mailchi.mp/e25a0b2c9428/maze-email-signup'); ?>" class="btn btn-white btn-small" target="_blank" rel="noopener noreferrer">
                         <i class="fas fa-envelope"></i>
                         <?php echo get_field('newsletter_button_text') ?: 'Join Our Storybook List'; ?>
                     </a>
