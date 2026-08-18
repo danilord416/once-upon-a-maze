@@ -63,7 +63,7 @@ get_header(); ?>
                 <p><?php echo get_theme_mod('main_description', 'Next door to FairyTale Village, this all-new walk-through experience invites you to wander, wonder, and rediscover your favorite childhood stories — one twist at a time.'); ?></p>
             </div>
             <div class="hero-buttons">
-                <a href="<?php echo get_field('cta_button_url') ?: '#'; ?>" class="btn btn-primary">
+                <a href="<?php echo esc_url(get_field('cta_button_url') ?: 'https://onceuponamaze.simpletix.com'); ?>" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
                     <i class="fas fa-ticket-alt"></i>
                     <?php echo get_field('cta_button_text') ?: 'Reserve Your Adventure'; ?>
                 </a>
